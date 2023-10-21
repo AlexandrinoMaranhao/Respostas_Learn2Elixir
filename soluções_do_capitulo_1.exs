@@ -13,6 +13,6 @@ is_binary("Zap")
 is_atom(:idade)
 is_boolean(true)
 is_map(%{nome: "João", idade: 30})
-is_tuple("Silva", 010, "coringa")
+is_tuple({"Silva", 010, "coringa"})
 
 # Exercicio 2
