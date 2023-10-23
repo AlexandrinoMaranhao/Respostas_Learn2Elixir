@@ -30,3 +30,20 @@ else
 end
 
 #Exercício 3
+a = 1
+b = -2
+c = 1
+
+delta = :math.sqrt(-b) - 4 * (a) * c
+delta = (b * b) - 4 * (a) * (c)
+IO.puts(delta)
+IO.puts(delta)
+
+if(delta >= 0) do
+ x = -b + delta/2*a
+ x = -b - delta/2*a
+ IO.puts(x)
+ IO.puts(x)
+else 
+ IO.puts("Não existem raízes reais para esse delta")
+end
