@@ -21,7 +21,7 @@ ocamilodev = 71255.53
 ocam_l = 30236.63
 camilotk = 5256.12
 
-media =  (ocamilodev + ocam_l + camilotk)/3
+media = (ocamilodev + ocam_l + camilotk)/3
 
 if(floor(media) == 35582) do 
   IO.puts("Parabéns você acertou)
