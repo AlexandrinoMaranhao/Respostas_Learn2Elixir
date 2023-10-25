@@ -47,3 +47,72 @@ if(delta >= 0) do
 else 
  IO.puts("Não existem raízes reais para esse delta")
 end
+
+#Exercício 4
+# Modelo do mapa de e-Commerce
+# %{productId: , id: , name: , email: , body: }
+
+resposta_completa = [
+  %{
+    "productId" => 1,
+    "id" => 1,
+    "name" => "id labore ex et quam laborum",
+    "email" => "Eliseo@gardner.biz",
+    "body" => "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+  },
+  %{
+  "productId" => 1,
+  "id" => 2,
+  "name" => "quo vero reiciendis velit similique earum",
+  "email" => "Jayne_Kuhic@sydney.com",
+  "body" => "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+  },
+  %{
+  "productId" => 2,
+  "id" => 6,
+  "name" => "et fugit eligendi deleniti quidem qui sint nihil autem",
+  "email" => "Presley.Mueller@myrl.com",
+  "body" => "doloribus at sed quis culpa deserunt consectetur qui praesentium\naccusamus fugiat dicta\nvoluptatem rerum ut voluptate autem\nvoluptatem repellendus aspernatur dolorem in"
+  },
+  %{
+  "productId" => 2,
+  "id" => 7,
+  "name" => "repellat consequatur praesentium vel minus molestias voluptatum",
+  "email" => "Dallas@ole.me",
+  "body" =>  "maiores sed dolores similique labore et inventore et\nquasi temporibus esse sunt id et\neos voluptatem aliquam\naliquid ratione corporis molestiae mollitia quia et magnam dolor"
+  },
+  %{
+  "productId" => 3,
+  "id" => 11,
+  "name" => "fugit labore quia mollitia quas deserunt nostrum sunt",
+  "email" => "Veronica_Goodwin@timmothy.net",
+  "body" => "ut dolorum nostrum id quia aut est\nfuga est inventore vel eligendi explicabo quis consectetur\naut occaecati repellat id natus quo est\nut blanditiis quia ut vel ut maiores ea"
+  },
+  %{
+  "productId" => 3,
+  "id" => 12,
+  "name" => "modi ut eos dolores illum nam dolor",
+  "email" => "Oswald.Vandervort@leanne.org",
+  "body" => "expedita maiores dignissimos facilis\nipsum est rem est fugit velit sequi\neum odio dolores dolor totam\noccaecati ratione eius rem velit"
+  }
+]
+
+#body1 = resposta_completa[:body]
+#IO.puts(body1)
+
+#Exercício 5
+
+defmodule Planeta do
+  defstruct [:nome, :superfície, :volume, :massa, :temp_media, :dist_sol]
+end
+
+mercurio = %Planeta{nome: "Mercurio", superfície: "7.48*10^7 km²", volume:"6.083*10^10 km³" ,massa:"3.3011*10^23 kg" ,temp_media:"166.85 ºC" ,dist_sol:"57910000 km"}
+venus = %Planeta{nome:"" ,superfície:"" ,volume:"" ,massa:"" ,temp_media:"" ,dist_sol:""}
+terra = %Planeta{nome:"" ,superfície:"" ,volume:"" ,massa:"" ,temp_media:"" ,dist_sol:""}
+jupiter = %Planeta{nome:"" ,superfície:"" ,volume:"" ,massa:"" ,temp_media:"" ,dist_sol:""}
+saturno = %Planeta{nome:"" ,superfície:"" ,volume:"" ,massa:"" ,temp_media:"" ,dist_sol:""}
+urano = %Planeta{nome:"" ,superfície:"" ,volume:"" ,massa:"" ,temp_media:"" ,dist_sol:""}
+netuno = %Planeta{nome:"" ,superfície:"" ,volume:"" ,massa:"" ,temp_media:"" ,dist_sol:""}
+
+%{estrela: "", nome: "Sistema Solar", planetas: }
+sistema_solar = 
